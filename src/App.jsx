@@ -8,7 +8,17 @@ function App() {
 
   return (
     <>
-      <div>
+      <div class="container">
+        <div class="left-block">
+          <h1>Набиева Алина 426ВЕБ</h1>
+          <p>React — библиотека JavaScript с открытым исходным кодом для разработки интерфейсов веб-приложений. Создан
+            Facebook и поддерживается сообществом разработчиков.</p>
+        </div>
+        <div class="right-block">
+          <img src="src\assets\sea.jpg" alt="React Logo"></img>
+        </div>
+      </div>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -16,7 +26,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Alina + Dasha</h1>
+      <h1>Набиева Алина 426ВЕБ</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -27,7 +37,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
