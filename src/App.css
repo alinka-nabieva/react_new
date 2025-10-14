@@ -2,7 +2,8 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -11,9 +12,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +25,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +43,47 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.left-block {
+  align-content: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #1a73e8;
+  text-align: left;
+}
+
+p {
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
