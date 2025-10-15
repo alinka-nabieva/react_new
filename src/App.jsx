@@ -16,7 +16,7 @@ function App() {
             Facebook и поддерживается сообществом разработчиков.</p>
         </div>
         <div class="right-block">
-          <img src={sea} alt="React Logo"></img>
+          <img src={sea} alt="React Logo" />
         </div>
       </div>
       {/* <div>
