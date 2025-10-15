@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import sea from './assets/sea.jpg'
 import './App.css'
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
             Facebook и поддерживается сообществом разработчиков.</p>
         </div>
         <div class="right-block">
-          <img src="src\assets\sea.jpg" alt="React Logo"></img>
+          <img src={sea} alt="React Logo"></img>
         </div>
       </div>
       {/* <div>
